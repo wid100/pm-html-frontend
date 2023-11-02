@@ -1,0 +1,1280 @@
+@media (min-width: 1537px) {
+    .carousel-caption {
+        position: absolute;
+        top: 45% !important;
+        left: 6.5rem;
+        transform: translateY(-50%);
+        padding: 20px;
+        color: #fff;
+        width: 45%;
+        max-width: 450px;
+        text-align: start;
+    }
+
+    .carve_body_text img {
+        width: 72% !important;
+    }
+
+    .carve_body_text img {
+        margin-top: -0.2rem !important;
+        margin-left: 1.8rem !important;
+        /* width: 50%; */
+    }
+
+    .fb-page {
+        height: 600px;
+        /* Set the increased height for larger screens */
+    }
+
+    .fristSectionImage img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 90%;
+        height: 90%;
+        object-fit: fill;
+        padding-bottom: 20px;
+    }
+
+    /* .social-page {
+        padding-left: 18px !important;
+        padding-right: 25px !important;
+    } */
+    /* .hasina-img {
+        width: 95%;
+        height: 96%;
+    } */
+}
+
+@media (max-width: 1536px) {
+    .carousel-caption {
+        position: absolute;
+        top: 50% !important;
+        left: 6.5rem;
+        transform: translateY(-50%);
+        padding: 20px;
+        color: #fff;
+        width: 45%;
+        max-width: 450px;
+        text-align: start;
+    }
+
+    .custom-carousel-content h1 {
+        font-size: 29px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        /* font-family: Anek Bangla; */
+        line-height: 40px;
+    }
+
+    .navbarHeaderText {
+        font-size: 22px;
+        color: #ffffff;
+    }
+
+    .footerLogo {
+        margin-top: 6px;
+    }
+
+    /* .custom-bg {
+        min-height: 20px;
+    } */
+
+    /* carve image */
+    .carve_body_text img {
+        /* width: 58%; */
+    }
+
+    .blog_section {
+        padding-left: 18px;
+        padding-right: 25px;
+    }
+
+    /* .blog_section_img img {
+        width: 100%;
+        height: 82%;
+    } */
+
+    .tab-heading {
+        font-size: 40px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .tab_option {
+        font-size: 14px !important;
+    }
+
+    .custom-bg {
+        min-height: 250px;
+    }
+
+    .card-img-wrapper {
+        position: relative;
+        width: 100%;
+        padding-top: 114%;
+        overflow: hidden;
+    }
+
+    /*
+    .fristSectionImageHw {
+        width: 103%;
+        height: 55%;
+        object-fit: fill;
+    } */
+
+    /* .hasina-img {
+        width: 100%;
+        height: 94% !important;
+    } */
+
+    /* .social-page {
+        padding-left: 36px !important;
+        padding-right: 16px !important;
+    } */
+}
+
+@media (max-width: 1280px) {
+    .custom-carousel-content h1 {
+        padding-top: -58px;
+        font-size: 27px !important;
+        font-weight: bold;
+        /* margin-bottom: 10px; */
+        /* font-family: Anek Bangla; */
+        line-height: 34px !important;
+    }
+
+    .carveNextSectionH3 {
+        font-size: 22px;
+        color: #f97700;
+        font-weight: bold;
+        margin-top: 25px;
+    }
+
+    .carveNextSectionP {
+        font-size: 14px;
+    }
+
+    .menu {
+        font-size: 12px !important;
+    }
+
+    .transparent-dropdown .dropdown-menu {
+        font-size: 8px !important;
+    }
+
+    .navbarHeaderText {
+        font-size: 12px;
+    }
+
+    .navImage {
+        height: 58px !important;
+        width: 58px !important;
+    }
+
+    .carousel-caption {
+        top: 50% !important;
+        left: 5.5rem;
+    }
+
+    .left-1 {
+        margin-top: 0 !important;
+    }
+
+    .footerLogo {
+        margin-top: 7px;
+    }
+
+    .footerLogoText {
+        margin-top: 4px !important;
+    }
+
+    .widLogoText {
+        margin-top: 5px !important;
+    }
+
+    .gov_logo img {
+        max-width: 100px;
+        object-fit: fill;
+        margin: 10px;
+    }
+
+    .custom-bg {
+        min-height: 250px;
+    }
+
+    .serviceImg p {
+        font-size: 16px;
+    }
+
+    .fristSectionHeadingTwo {
+        line-height: 38px;
+        font-weight: bold;
+    }
+
+    .updestsBtn {
+        padding: 5px 6px;
+        font-family: Arial !important;
+    }
+
+    /* nnn */
+    /* carve image */
+    .carve-text h5 {
+        border-bottom: 2px solid #f97700;
+        /* margin-left: 10%; */
+        /* margin-right: 8%; */
+        padding-bottom: 10px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .carve_body {
+        font-size: 11px;
+        padding-top: 10px !important;
+    }
+
+    .carve_body_text img {
+        /* width: 111% !important; */
+    }
+
+    .flexText {
+        padding: 0;
+        font-size: 8px;
+        margin: 0px 0px 5px 0px;
+        font-family: Arial !important;
+    }
+
+    .fristSectionImageHw {
+        width: 100%;
+        height: 52%;
+        object-fit: fill;
+    }
+
+    .blog_section {
+        padding-left: 33px;
+        padding-right: 12px;
+    }
+
+    /* .blog_section_img img {
+        width: 100%;
+        height: 70%;
+    } */
+
+    .tab-heading {
+        font-size: 40px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .tab_option {
+        font-size: 14px !important;
+    }
+
+    /* new */
+    .horizontal-menu li a {
+        text-decoration: none;
+        color: #ffffff;
+        font-family: "Anek Bangla", sans-serif;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .carve-text h5 {
+        border-bottom: 2px solid #f97700;
+        /* margin-left: 10%; */
+        /* margin-right: 8%; */
+        padding-bottom: 10px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    /* .social-page {
+        padding-left: 85px !important;
+        padding-right: 25px !important;
+    } */
+}
+
+@media (max-width: 1024px) {
+    .carveNextSectionH3 {
+        font-size: 22px;
+        color: #f97700;
+        font-weight: bold;
+        margin-top: 25px;
+    }
+
+    .carveNextSectionP {
+        font-size: 14px;
+    }
+
+    .navImage {
+        height: 60px !important;
+        width: 60px !important;
+    }
+
+    .fristNavbar {
+        display: none !important;
+    }
+
+    .sliderMargin {
+        margin-top: 0px !important;
+    }
+
+    .background_color_nav {
+        background-color: #004382 !important;
+    }
+
+    #carouselExampleControls .carousel-inner .carousel-item img {
+        height: 450px;
+        object-fit: fill;
+    }
+
+    .sliderMargin {
+        margin-top: 66px !important;
+    }
+
+    .carousel-caption {
+        top: 40% !important;
+        left: 5.5rem;
+    }
+
+    .custom-carousel-content h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .custom-carousel-content p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .custom-btn-width {
+        width: 130px;
+    }
+
+    .gov_logo img {
+        max-width: 100px;
+        object-fit: fill;
+        margin: 0px !important;
+    }
+
+    .footerLogo {
+        margin-top: 16px;
+    }
+
+    .custom-bg {
+        min-height: 215px;
+    }
+
+    .flexText {
+        padding: 0;
+        font-size: 9px;
+        margin: 0px 0px 3px 0px;
+    }
+
+    .updestsBtn {
+        display: inline-block;
+        padding: 5px 5px;
+        background-color: #f5f5f5;
+        color: #333333;
+        border: none;
+        font-size: 10px;
+        cursor: pointer;
+        text-decoration: none;
+        line-height: 11.8px;
+        border: 1px solid #b9b9b9;
+        font-family: Arial !important;
+    }
+
+    .upodestaP {
+        font-size: 10px;
+    }
+
+    .parentSecFistDiv {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .carveNextSectionH3 {
+        font-size: 15px !important;
+    }
+
+    .flexText {
+        padding: 0;
+        font-size: 7px;
+        margin: 0px 0px 3px 0px;
+    }
+
+    .paragrapSecondSec {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    /* nnnn */
+    /* carve inage */
+    .carve-text h5 {
+        border-bottom: 2px solid #f97700;
+        /* margin-left: 10%; */
+        /* margin-right: 8%; */
+        padding-bottom: 10px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .carve_body p {
+        font-size: 9px;
+    }
+
+    .carve_body_text {
+        margin-left: 10px !important;
+        margin-right: 0px !important;
+    }
+
+    .carve_body_text img {
+        width: 109% !important;
+    }
+
+    .fristSectionImageHw {
+        width: 100%;
+        height: 38%;
+        object-fit: fill;
+    }
+
+    .secondSectionHeaderOne {
+        font-size: 30px !important;
+    }
+
+    .secondSectionHeaderTwo {
+        font-size: 18px;
+    }
+
+    .blog_section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* .blog_section_img img {
+        width: 100%;
+        height: 70%;
+    } */
+
+    .tab-heading {
+        font-size: 30px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .tab_option {
+        font-size: 14px !important;
+    }
+
+    /* new */
+    .horizontal-menu li a {
+        text-decoration: none;
+        color: #ffffff;
+        font-family: "Anek Bangla", sans-serif;
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    .circle-background {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        /* width: 12px !important; */
+        /* height: 11px; */
+        color: #0d0c0c96;
+        border-radius: 50%;
+        background-color: #fbfafa;
+        font-size: 11px;
+    }
+
+    .menu {
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width: 1040px) and (min-width: 992px) {
+    .menu {
+        font-size: 10px !important;
+    }
+}
+
+@media (max-width: 899px) and (min-width: 768px) {
+    .carve-text {
+        background-color: rgba(27, 27, 27, 0.6);
+        color: white;
+        padding-right: 15px;
+    }
+
+    .menu {
+        font-size: 12px !important;
+    }
+
+    .dropdown-item {
+        font-size: 12px !important;
+    }
+
+    .upodestaP {
+        font-size: 9px;
+    }
+
+    .updestsBtn {
+        display: inline-block;
+        padding: 3px 3px;
+        background-color: #f5f5f5;
+        color: #333333;
+        border: none;
+        font-size: 9px;
+        cursor: pointer;
+        text-decoration: none;
+        /* line-height: 11.8px; */
+        border: 1px solid #b9b9b9;
+        font-family: Arial !important;
+    }
+
+    .card-img-wrapper {
+        position: relative;
+        width: 100%;
+        padding-top: 110%;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 767px) {
+    .menu {
+        font-size: 13px !important;
+    }
+
+    .dropdown-item {
+        font-size: 13px !important;
+    }
+
+    #carouselExampleControls .carousel-inner .carousel-item img {
+        height: 300px;
+        object-fit: fill;
+    }
+
+    .sliderMargin {
+        margin-top: 66px !important;
+    }
+
+    .horizontal-menu li {
+        /* text-align: left; */
+        /* padding-left: 0px !important; */
+    }
+
+    .horizontal-menu_2 li {
+        text-align: left;
+        padding-left: 0px !important;
+    }
+
+    .footerLogo {
+        margin-top: 2px;
+    }
+
+    .right-2 {
+        text-align: left;
+        padding-left: 48px !important;
+    }
+
+    .gov_logo img {
+        max-width: 124px;
+        object-fit: fill;
+        margin: 10px !important;
+    }
+
+    /* .logos_section {
+        padding-left: 3rem !important;
+        padding-right: 3rem !important;
+    } */
+
+    .footerLogo img {
+        height: 60px !important;
+        width: 60px !important;
+    }
+
+    .widLogoText {
+        margin-top: 0px !important;
+    }
+
+    .social_icon {
+        margin-top: -33px !important;
+    }
+
+    .marginTopFirstSec {
+        margin-top: 10px;
+    }
+
+    .fristSectionImage {
+        height: 60%;
+    }
+
+    .content {
+        padding: 0px 0px 0px 20px;
+    }
+
+    .service {
+        padding-top: 25px;
+        padding-bottom: 0px;
+    }
+
+    .serviceImg p {
+        color: #004382;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .carved-section {
+        clip-path: polygon(0% 0%, 100% 0, 100% 100%, 0% 100%) !important;
+        margin-top: -264px;
+    }
+
+    .custom-bg {
+        min-height: 200px;
+    }
+
+    .secondSectionHeaderOne {
+        font-size: 28px;
+    }
+
+    .parentSecFistDiv {
+        padding: 0px 12px 0px 8px;
+    }
+
+    .secondDivMarPadding {
+        padding: 0px 30px;
+    }
+
+    .carveNextSectionMargin {
+        margin-top: 30px !important;
+    }
+
+    .carved-section {
+        padding: 10px 0px 0px 0px;
+    }
+
+    .card-body {
+        padding-bottom: 57px;
+    }
+
+    .flexCardImg {
+        margin: 0px 0px 25px 0px;
+    }
+
+    .upodestaP {
+        font-size: 14px;
+    }
+
+    .flexText {
+        font-size: 12px;
+    }
+
+    /* nnnn */
+    /* carve image */
+    .carve_body {
+        padding-top: 29px !important;
+    }
+
+    .carve_body_text {
+        /* margin-left: 80px !important; */
+        /* margin-right: 33px !important; */
+    }
+
+    .carve_body p {
+        font-size: 15px;
+    }
+
+    .carve_body_text {
+        /* margin-left: 80px !important; */
+        /* margin-right: 33px !important; */
+    }
+
+    .carve_body_text img {
+        width: 65% !important;
+    }
+
+    .carve-text h5 {
+        border-bottom: 2px solid #f97700;
+        /* margin-left: 10%; */
+        /* margin-right: 8%; */
+        padding-bottom: 10px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .CardColum {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .fristSectionImageHw {
+        width: 100%;
+        height: 120%;
+        object-fit: fill;
+    }
+
+    .blog_section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .tab-heading {
+        font-size: 28px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .tab_option {
+        /* width: 70%; */
+        font-size: 15px !important;
+    }
+
+    .icon-bar {
+        /* display: none; */
+        height: 200px;
+        width: 200px;
+    }
+
+    /* new */
+    /* .carve_body_text, .img-fix {
+        width: 65% !important;
+    } */
+
+    .box {
+        border-radius: 10px !important;
+        text-align: center;
+        padding: 10px !important;
+    }
+
+    .box img {
+        width: 70%;
+        /* display: block; */
+        /* margin: auto; */
+        /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); */
+        border-radius: 15px;
+    }
+
+    /* .social-page {
+        margin-left: 20px;
+    } */
+}
+
+@media (max-width: 640px) {
+    #carouselExampleControls .carousel-inner .carousel-item img {
+        height: 300px;
+        object-fit: fill;
+    }
+
+    .sliderMargin {
+        margin-top: 66px !important;
+    }
+
+    .horizontal-menu li {
+        /* text-align: left; */
+        /* padding-left: 0px !important; */
+    }
+
+    .horizontal-menu_2 li {
+        text-align: left;
+        padding-left: 0px !important;
+    }
+
+    .gov_logo img {
+        max-width: 100px;
+        object-fit: fill;
+    }
+
+    .parentSecFistDiv {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .marginCarveSection {
+        background-image: none !important;
+    }
+
+    .carved-section {
+        clip-path: polygon(0% 0%, 100% 0, 100% 100%, 0% 100%);
+        margin-top: -200px;
+    }
+
+    .custom-bg {
+        min-height: 200px;
+    }
+
+    .fristSectionHeadingTwo {
+        font-size: 25px;
+        line-height: 26px;
+    }
+
+    .marginCarveSection {
+        margin-top: 200px;
+        margin-bottom: 43px;
+    }
+
+    .upodestaP {
+        font-size: 14px;
+    }
+
+    .flexText {
+        font-size: 12px;
+    }
+
+    /* nnnnn */
+    /* carve img */
+    .carve_body_text img {
+        /* width: 52%; */
+    }
+
+    .carve_body {
+        padding-top: 29px !important;
+    }
+
+    .fristSectionImageHw {
+        width: 95%;
+        height: 130%;
+        object-fit: fill;
+    }
+
+    .blog_section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .tab-heading {
+        font-size: 28px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .tab_option {
+        width: 100%;
+        font-size: 13px !important;
+    }
+
+    .box {
+        border-radius: 10px !important;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .box img {
+        width: 90%;
+        display: block;
+        margin: auto;
+        /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); */
+        border-radius: 10px;
+    }
+
+    .fb-page {
+        /* Adjust width and height for smaller screens */
+        /* width: 1000px; */
+    }
+}
+
+@media (max-width: 576px) {
+    #carouselExampleControls .carousel-inner .carousel-item img {
+        height: 300px;
+        object-fit: fill;
+    }
+
+    .backgroundImageFrist {
+        background-image: url(../images/bangladesh.png);
+        background-size: 90% 90%;
+        background-repeat: no-repeat;
+        z-index: 1000;
+    }
+
+    .sliderMargin {
+        margin-top: 66px !important;
+    }
+
+    .left {
+        margin-top: 18px !important;
+        text-align: left;
+        margin-left: 0px !important;
+    }
+
+    .footerLogo {
+        display: none;
+    }
+
+    .footerLogoText {
+        font-size: 14px;
+        font-weight: bold;
+        margin-left: 12px !important;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .horizontal-menu {
+        /* margin-top: 10px !important; */
+    }
+
+    .horizontal-menu li {
+        /* text-align: left; */
+        /* padding-left: 0px !important; */
+    }
+
+    .horizontal-menu_2 {
+        margin-top: 10px !important;
+    }
+
+    .horizontal-menu_2 li {
+        text-align: left;
+        padding-left: 0px !important;
+    }
+
+    .right-2 {
+        text-align: left;
+        padding-left: 21px !important;
+    }
+
+    .gov_logo img {
+        max-width: 100px;
+        object-fit: fill;
+        margin: 0px !important;
+    }
+
+    .footer-2-text {
+        text-align: left !important;
+        padding-left: 44px !important;
+        padding-right: 44px !important;
+    }
+
+    .social_icon {
+        margin-top: -16px !important;
+    }
+
+    .marginCarveSection {
+        margin-top: 179px;
+        margin-bottom: 5px;
+        padding: 30px 7px;
+    }
+
+    .secondSectionHeaderOne {
+        text-align: center;
+        color: #004382;
+        font-weight: bold;
+        font-size: 26px !important;
+    }
+
+    .updestsBtn {
+        display: inline-block;
+        padding: 6px 15px;
+        background-color: #f5f5f5;
+        color: #333333;
+        border: none;
+        font-size: 12px;
+        cursor: pointer;
+        text-decoration: none;
+        line-height: 13.8px;
+        border: 1px solid #b9b9b9;
+        font-family: Arial !important;
+    }
+
+    .flexCardImg {
+        margin: 0px -12px 13px -10px;
+    }
+
+    .carveNextSectionH3 {
+        font-size: 14px !important;
+        margin-top: 15px;
+    }
+
+    .carveNextSectionP {
+        font-size: 12px !important;
+    }
+
+    .upodestaP {
+        font-size: 12px;
+    }
+
+    .flexText {
+        font-size: 9px;
+    }
+
+    /* nnnn */
+    .carve_body_text img {
+        /* width: 60%; */
+    }
+
+    .carve_body {
+        padding-top: 29px !important;
+    }
+
+    .carve_body_text {
+        /* margin-left: 46px !important; */
+        /* margin-right: 33px !important; */
+    }
+
+    .firstSectionBtn {
+        padding: 4px 12px;
+        font-size: 13px;
+    }
+
+    .secondSectionHeaderTwo {
+        font-size: 14px !important;
+    }
+
+    .blog_section {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .tab-heading {
+        font-size: 25px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .tab-heading {
+        font-size: 20px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .tab_option {
+        font-size: 14px !important;
+    }
+
+    .fristSectionDescription {
+        color: #484848;
+        font-size: 14px;
+        text-align: justify;
+        width: 97%;
+        margin-left: -8px;
+    }
+
+    .fristSectionHeadingOne {
+        margin-left: -8px;
+    }
+
+    .fristSectionHeadingTwo {
+        margin-left: -8px;
+    }
+
+    .fristSectionImage img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 90%;
+        height: 80%;
+        object-fit: fill;
+    }
+
+    .video-container {
+        padding: 0px 5px 0px 5px;
+    }
+
+    .logos_section {
+        margin-left: 8% !important;
+        margin-right: 8% !important;
+    }
+
+    /* new */
+    .circle-background {
+        /* margin-top: 5px; */
+    }
+
+    .carve_body_text img {
+        width: 70% !important;
+    }
+
+    .carve_body_text_1 {
+        padding-left: 30px;
+    }
+
+    .carve_body_text_2 {
+        padding-left: 35px;
+    }
+
+    .box {
+        border-radius: 10px !important;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .box img {
+        width: 90%;
+        display: block;
+        margin: auto;
+        /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); */
+        border-radius: 10px;
+    }
+
+    .tab_option {
+        /* width: 69%; */
+        font-size: 10px !important;
+    }
+
+    .social-tab {
+        padding-top: 30px;
+        width: 104% !important;
+    }
+}
+
+@media (max-width: 475px) {
+    #carouselExampleControls .carousel-inner .carousel-item img {
+        height: 200px;
+        object-fit: fill;
+    }
+
+    .navImage {
+        height: 30px !important;
+        width: 30px !important;
+    }
+
+    .sliderMargin {
+        margin-top: 66px !important;
+    }
+
+    .navbar-toggler {
+        padding: 2px 2px !important;
+    }
+
+    .horizontal-menu li {
+        /* text-align: left; */
+        /* padding-left: 0px !important; */
+    }
+
+    .horizontal-menu_2 li {
+        text-align: left;
+        padding-left: 0px !important;
+    }
+
+    .gov_logo img {
+        max-width: 80px;
+        object-fit: fill;
+    }
+
+    .btn_1 {
+        margin-top: 10px !important;
+    }
+
+    .btn_2 {
+        margin-top: 10px !important;
+    }
+
+    .footerLogo {
+        display: none;
+    }
+
+    .social_icon ul li a {
+        padding-left: 2px !important;
+    }
+
+    .secondDivMarPadding {
+        padding: 0px 25px !important;
+    }
+
+    /* nn */
+    .blog_section img {
+        width: 100%;
+    }
+
+    .slick-prev,
+    .slick-next {
+        margin-top: 100px;
+    }
+
+    /* carve image */
+    .carve_body {
+        padding-top: 20px !important;
+    }
+
+    .carve-text h5 {
+        border-bottom: 2px solid #f97700;
+        /* margin-left: 10%; */
+        /* margin-right: 8%; */
+        padding-bottom: 10px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .carve_body_text {
+        /* margin-left: 39px !important; */
+        /* margin-right: 33px !important; */
+    }
+
+    .carve_body_text img {
+        /* width: 54%;
+        margin-top: 6px; */
+    }
+
+    .carve_body p {
+        font-size: 9px;
+    }
+
+    .check_icon.fa-check {
+        padding-top: 0px;
+    }
+
+    .blog_section {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    /* tab section */
+    .tab-heading {
+        font-size: 20px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .tab-content {
+        padding-top: 0px !important;
+    }
+
+    .tab_option {
+        /* width: 70%; */
+        font-size: 12px !important;
+    }
+
+    .fristSectionImageHw {
+        width: 100% !important;
+        height: 115% !important;
+        object-fit: fill;
+    }
+
+    .marginLeft {
+        margin-left: 0px !important;
+    }
+
+    /* new */
+    .circle-background {
+        /* margin-top: 5px !important; */
+    }
+
+    .carve_body_text img {
+        width: 110% !important;
+    }
+
+    .carve_body_text_1 {
+        padding-left: 10px;
+    }
+
+    .carve_body_text_2 {
+        padding-left: 20px;
+    }
+
+    .box {
+        border-radius: 10px !important;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .box img {
+        width: 100%;
+        display: block;
+        margin: auto;
+        /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); */
+        border-radius: 10px;
+    }
+
+    .social-tab {
+        padding-top: 30px;
+        width: 104% !important;
+    }
+    .custom-btn-yellow {
+        font-size: 10px;
+    }
+    .padding-energy {
+        padding: 5px 2px !important;
+    }
+    .icon-bar {
+        /* display: none; */
+        height: 120px;
+        width: 120px;
+    }
+}
