@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
     <style>
+       
         .box-carousel {
             display: flex;
             overflow-x: auto;
@@ -115,9 +116,12 @@
             margin-top: 10px;
         }
     </style>
+
+
 </head>
 
 <body>
+ 
     <header class="">
     <style>
         .scrolled {
@@ -384,33 +388,11 @@
             </div>
         </nav>
     </div>
+
 </header>
 
-<script>
-    $(document).ready(function() {
-        $(window).scroll(function() {
-            var scrollDistance = $(window).scrollTop();
-            var triggerDistance = 150;
-            var $contents = $('#contents'); // The element to which you want to add the class
-            var $contentsTwo = $('#contentTwo'); // The element to which you want to add the class
 
-            if (scrollDistance >= triggerDistance) {
-                // Add the class when scrolled beyond the trigger distance
-                $contents.addClass('scrolled');
-                $contentsTwo.addClass('borderButtom');
-            } else {
-                // Remove the class if not scrolled beyond the trigger distance
-                $contents.removeClass('scrolled');
-                $contentsTwo.removeClass('borderButtom');
-            }
-        });
-    });
-    $(document).ready(function() {
-        $(".openEmpty").click(function() {
-            $(".empty-dev").removeClass("active");
-        });
-    });
-</script>
+
         <main class="sectionOverflow">
         
         <div id="carouselExampleControls" class=" slide sliderMargin" data-bs-ride="">
@@ -824,6 +806,19 @@
                             <div class="row pt-3">
                                 <!-- Your carousel slides here -->
                                 <div class="blog_section blog_section_img col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                                    <img class="centered-content img-fluid"
+                                        src="assets/images/news-head/images/news10banner.jpg" alt="">
+                                    <div>
+                                        <p class="mx-sm-0">
+                                            <span style="color: #F97700">NOVEMBER 08, 2023</span><br>
+                                            <a href="news-details-ten.html"
+                                                style="text-decoration: none; color:#5C5E61 !important;"><span
+                                                    class="blueHover">পেট্রোবাংলা এবং যুক্তরাষ্ট্রের এক্সেলরেট এনার্জির মধ্যে দীর্ঘমেয়াদী এলএনজি বিক্রয় -ক্রয়,  এমএলএনজি সম্প্রসারণ চুক্তি স্বাক্ষর
+                                                </span></a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="blog_section blog_section_img col-xl-6 col-lg-6 col-md-6 col-sm-6">
                                     <img class="centered-content img-fluid" src="assets/images/news-head/news-a3.jpg"
                                         alt="">
                                     <div>
@@ -835,19 +830,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="blog_section blog_section_img col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                    <img class="centered-content img-fluid"
-                                        src="assets/images/news-head/news-a2.jpg" alt="">
-                                    <div>
-                                        <p class="mx-sm-0">
-                                            <span style="color: #F97700">MAY 14, 2023</span><br>
-                                            <a href="news-details-nine.html"
-                                                style="text-decoration: none; color:#5C5E61 !important;"><span
-                                                    class="blueHover">বিদ্যুৎ প্রতিমন্ত্রীর সাথে ওমানের রাষ্ট্রদূতের সৌজন্য সাক্ষাৎ
-                                                </span></a>
-                                        </p>
-                                    </div>
-                                </div>
+                                
                                 <div class="text-center pt-3">
                                     <a href="news-energy.html" class="firstSectionBtn  ">
                                         আরো পড়ুন
