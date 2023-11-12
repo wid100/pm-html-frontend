@@ -1,0 +1,195 @@
+/*  ===================== All Notice Page ===================== */
+.scrolled {
+    background-color: #333333 !important;
+    opacity: 0.9;
+    transition: opacity 1s ease, background-color 1s ease;
+    border-bottom: none !important;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.borderButtom {
+    border-bottom: 0.5px solid #887f7f;
+}
+
+/* Reset box-sizing for all elements */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.nav-item {
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+    margin-bottom: 10px;
+}
+
+/* Style the navigation items on hover */
+.nav-item:hover {
+    border-color: #F97700;
+}
+
+.transparent-dropdown {
+    position: relative;
+}
+
+.transparent-dropdown .dropdown-menu {
+    font-size: 14px;
+    background-color: rgb(255 255 255 / 85%);
+    backdrop-filter: blur(5px);
+}
+
+.empty-dev {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    /* background: #dddddd; */
+    z-index: -1;
+    display: block;
+}
+
+.empty-dev.collapsed {
+    display: none;
+}
+
+.empty-dev.active {
+    display: none;
+}
+
+
+.news-title h2 {
+    color: #043f77;
+    font-size: 32px;
+    font-weight: bold
+}
+.carve-col-news {
+    margin-top: 4rem !important;
+    margin-bottom: 0rem !important;
+}
+
+.news-carve-img {
+    margin-bottom: 80px;
+}
+
+.gov_logo_news {
+    margin-bottom: 47px !important;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Arial";
+    font-size: 14px;
+}
+
+table .bg-color {
+    background-color: #F97700;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+thead th,
+td {
+    padding: 16px 15px !important;
+    text-align: left;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+
+    text-align: center;
+}
+
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #F4FDFF;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #F4FDFF;
+    transition: background-color 0.3s ease;
+}
+
+tbody td i {
+    color: #043F77;
+    font-size: 25px;
+    margin: 0 5px;
+
+}
+
+.notice-table-contents {
+    border-bottom: 1px solid #B9B9B9 !important;
+}
+
+@media (min-width:1700px) {
+    table {
+        font-size: 15px;
+    }
+}
+
+@media (min-width:1400px) and (max-width:1699px) {
+    table {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:1024px) {
+    .margingTop {
+        margin-top: 60px !important;
+    }
+}
+
+@media (max-width:992px) {
+
+    tbody td i {
+        font-size: 18px;
+        margin: 5px 5px;
+    }
+
+    table {
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+    .notice-table-wrapper tbody tr td {
+        font-size: 14px !important;
+    }
+
+    .notice-table-contents {
+
+        padding-left: 20px !important;
+    }
+}
+
+@media (max-width:768px) {
+
+    .news-title h2 {
+        font-size: 28px !important;
+    }
+
+    .notice-table-content {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+}
+
+@media (max-width:575px) {
+    .news-title h2 {
+        font-size: 20px !important;
+    }
+
+}

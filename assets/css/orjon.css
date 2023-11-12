@@ -1,0 +1,191 @@
+
+.orjon-center {
+    background-color: rgba(247, 247, 248, 0.8);
+    z-index: 999;
+    margin-top: -130px !important;
+    padding: 0 50px 50px 50px;
+    position: relative;
+}
+.orjon_bottom{
+    border-bottom: 1px solid #B9B9B9;
+}
+
+.orjon-center span i {
+    color: rgb(185, 185, 185);
+    font-size: 11px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.orjon-title h2 {
+    color: rgb(4, 63, 119);
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.orjon-center a {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.orjon-center-text {
+    color: rgb(249, 119, 0);
+}
+
+.orjon-center-text-1 {
+    color: rgb(51, 51, 51);
+    font-weight: 500;
+}
+
+.cardOrjon {
+    margin: 0px 8px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 0px !important;
+}
+
+.card-titleCard {
+    color: rgb(92, 94, 97);
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.card-text {
+    color: rgb(92, 94, 97);
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.card-text span {
+    color: rgb(249, 119, 0);
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.MarginCard {
+    margin-top: 50px;
+}
+.carve-cols {
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+}
+.orjon-card-Items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0 30px;
+    margin-top: 50px;
+}
+.orjon-card-Items > *:nth-child(3n+2) {
+    margin-top: 50px;
+}
+
+@media (min-width: 1700px) {
+    .orjon-center a {
+        font-size: 18px;
+    }
+
+    .card-titleCard {
+        font-size: 18px;
+    }
+
+    .card-text {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .card-text span {
+        font-size: 15px;
+    }
+
+    .cardOrjon {}
+
+    .MarginCard {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1699px) {
+    .orjon-center a {
+        font-size: 15px;
+    }
+
+    .card-titleCard {
+        font-size: 16px;
+    }
+
+    .card-text {
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .card-text span {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .margingTop {
+        margin-top: 60px !important;
+    }
+
+    .orjon-center {
+        background-color: rgba(247, 247, 248, 0.8);
+        margin-top: -100px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .orjon-center {
+        background-color: rgba(247, 247, 248, 0.8);
+        margin-top: -100px !important;
+    }
+    .orjon-card-Items{
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+        gap: 0 40px ;
+        margin-top: 50px;
+    }
+    .orjon-card-Items > *:nth-child(3n+2) {
+        margin-top: 0px;
+    }
+    .carve-text {
+        padding: 20px 20px 0 20px;
+        background-color: rgb(27 27 27);
+    }
+}
+
+@media (max-width: 768px) {
+    .orjon-center {
+        margin-top: 0px !important;
+    }
+
+    .orjon-title h2 {
+        font-size: 20px !important;
+        line-height: 150%;
+    }
+    .orjon-card-Items{
+        display: grid;
+        grid-template-columns:  1fr;
+        gap: 0 40px;
+        margin-top: 10px;
+    }
+
+    .orjon-center {
+        padding: 0 20px 0px 20px;
+    }
+    .cardOrjon {
+        margin: 20px 0px;
+    }
+
+    .orjon-center a {
+        font-size: 16px;
+    }
+  
+}

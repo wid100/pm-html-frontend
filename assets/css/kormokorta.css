@@ -1,0 +1,438 @@
+
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #043f77 !important;
+}
+
+/* news Center*/
+.news-center {
+    background-color: rgba(247, 247, 248, 0.8);
+    margin-top: -130px !important;
+    z-index: 999;
+    position: relative;
+}
+
+.news-center span i {
+    color: #B9B9B9;
+    font-size: 11px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.news-title h2 {
+    color: #043f77;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.news-title h4 {
+    color: #043f77;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.news-title h5 {
+    color: #043f77;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.news-title h6 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #F97700;
+    width: 380px;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-center a {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.news-center-text {
+    color: #F97700;
+}
+
+.news-center-text-1 {
+    color: #333333;
+    font-weight: 500;
+}
+.kormokorta-items{
+    padding: 0 50px;
+}
+
+.news_section p a {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #5C5E61;
+}
+
+.news_section {
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+.news_section_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.carve-col-news {
+    margin-top: 4rem !important;
+    margin-bottom: 0rem !important;
+}
+
+.news-carve-img {
+    margin-bottom: 80px;
+}
+
+.gov_logo_news {
+    margin-bottom: 47px !important;
+}
+/* Card image styles */
+.sideRound {
+    border-radius: 10px;
+    border: none;
+}
+
+.ministryCard {
+    padding: 30px;
+    height: 100%;
+}
+
+.equal-alignment-list {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    font-family: "Arial";
+}
+
+.equal-alignment-list .label {
+    text-align: left;
+    font-size: 15px;
+
+}
+
+.equal-alignment-list .content {
+    text-align: left;
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+
+.news-center .mailMinistry {
+    font-size: 15px;
+    font-family: "Arial";
+    color: #333333;
+}
+
+.news-center .mailMinistry:hover {
+    color: #004382;
+}
+
+
+.card-body {
+    /* padding: 0px; */
+}
+
+.card-content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.card-image {
+    width: 100%;
+    border: none;
+    object-fit: fill;
+}
+
+.headingButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+}
+
+.left-button {
+    margin-right: 10px;
+    background-color: #F97700;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 20px;
+}
+
+.left-button:hover {
+    color: #fff
+}
+
+.right-button {
+    background-color: #004382;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.right-button:hover {
+    color: #fff
+}
+
+.nav-link.left-button.btn:not(.active) {
+    background-color: #F97700;
+    color: #ffffff;
+}
+
+.nav-link.right-button.btn:not(.active) {
+    background-color: #F97700;
+    color: #ffffff;
+}
+
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.align-div {
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+@media (min-width:1700px) {
+
+
+    .equal-alignment-list .content {
+        font-size: 18px;
+    }
+
+    .equal-alignment-list .label {
+        font-size: 18px;
+    }
+
+    .news-center .mailMinistry {
+        font-size: 18px;
+    }
+
+    .equal-alignment-list {
+        gap: 14px;
+    }
+
+    .news-center a {
+        font-size: 18px;
+    }
+}
+
+@media (min-width:1400px) and (max-width:1699px) {
+    .news-center a {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:1200px) {
+    img.img-fluid.sideRound.card-image {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:1024px) {
+    .margingTop {
+        margin-top: 60px !important;
+    }
+
+    .news-center {
+        background-color: rgba(247, 247, 248, 0.8);
+        margin-top: -100px !important;
+    }
+
+}
+
+@media (max-width:991px) {
+    .news-center {
+        background-color: rgba(247, 247, 248, 0.8);
+        margin-top: -100px !important;
+    }
+
+    .news-title h6 {
+        font-size: 18px !important;
+        width: 375px;
+        height: 50px;
+    }
+}
+
+@media (max-width:768px) {
+    img.img-fluid.sideRound.card-image {
+        width: 100%;
+    }
+
+    .news-center {
+        margin-top: 0px !important;
+    }
+
+    .news-center a {
+        font-size: 14px;
+        margin-bottom: 10px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .news-title h2 {
+        font-size: 17px !important;
+    }
+
+    .news-title h6 {
+        font-size: 15px !important;
+        width: 370px;
+        height: 45px;
+    }
+
+    .headingButton {
+        display: block;
+        margin: 0 30px;
+    }
+
+    .button-container {
+        justify-content: start;
+        margin-top: 20px;
+    }
+
+    .ministryCard {
+        margin: 0px 10px;
+    }
+
+    .news-title h4 {
+        margin: 0px 30px;
+    }
+
+    .left-button,
+    .right-button {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+    .kormokorta-items {
+        padding: 0 20px;
+    }
+
+}
+
+@media (max-width:576px) {
+    .ministryCard {
+        padding: 20px;
+    }
+    .news-title h6 {
+        width: 470px;
+        height: 45px;
+    }
+
+    .equal-alignment-list .label {
+        font-size: 15px;
+    }
+
+    .equal-alignment-list .content {
+        font-size: 15px;
+    }
+
+    .news-center .mailMinistry {
+        font-size: 15px;
+    }
+
+    .ministryCard {
+        margin: 0px 0px;
+    }
+
+    .news-title h4 {
+        font-size: 20px;
+        margin: 0px 15px;
+        text-align: center;
+    }
+
+    .news-title h5 {
+        font-size: 20px;
+
+    }
+
+    .headingButton {
+        margin: 0 10px;
+        text-align: center;
+    }
+
+    .left-button,
+    .right-button {
+        font-size: 14px;
+        padding: 8px 10px;
+        width: 100%;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+}
+
+@media (max-width:475px) {
+    .news-title h6 {
+        width: 400px !important;
+    }
+}
+
+@media (max-width:425px) {
+    .news-title h6 {
+        width: 350px !important;
+    }
+
+    .equal-alignment-list .content {
+
+        padding-left: 0px;
+
+    }
+
+    .ministryCard {
+        padding: 20px;
+    }
+}
+
+@media (max-width:375px) {
+
+    .news-title h6 {
+        width: 300px !important;
+    }
+
+    .left-button {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+
+    .right-button {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+
+    .news-title h4 {
+        font-size: 16px;
+        margin: 0px 10px;
+    }
+}
