@@ -384,8 +384,31 @@
 
 </header>
 
+<script>
+    $(document).ready(function() {
+        $(window).scroll(function() {
+            var scrollDistance = $(window).scrollTop();
+            var triggerDistance = 150;
+            var $contents = $('#contents'); // The element to which you want to add the class
+            var $contentsTwo = $('#contentTwo'); // The element to which you want to add the class
 
-
+            if (scrollDistance >= triggerDistance) {
+                // Add the class when scrolled beyond the trigger distance
+                $contents.addClass('scrolled');
+                $contentsTwo.addClass('borderButtom');
+            } else {
+                // Remove the class if not scrolled beyond the trigger distance
+                $contents.removeClass('scrolled');
+                $contentsTwo.removeClass('borderButtom');
+            }
+        });
+    });
+    $(document).ready(function() {
+        $(".openEmpty").click(function() {
+            $(".empty-dev").removeClass("active");
+        });
+    });
+</script>
         <main class="sectionOverflow">
         
         <div id="carouselExampleControls" class=" slide sliderMargin" data-bs-ride="">
@@ -821,7 +844,7 @@
                                     <div>
                                         <p class="mx-sm-0">
                                             <span style="color: #F97700">JUNE 25, 2023</span><br>
-                                            <a href="news-details-four"
+                                            <a href="news-details-four.html"
                                                 style="text-decoration: none; color:#5C5E61 !important;"><span
                                                     class="blueHover">বিদ্যুৎ বিভাগের দপ্তরসমূহের সাথে বার্ষিক কর্মসম্পাদন চুক্তি (এপিএ)</span></a>
                                         </p>
