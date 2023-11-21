@@ -635,7 +635,7 @@
 
     .carved-section {
         clip-path: polygon(0% 0%, 100% 0, 100% 100%, 0% 100%) !important;
-        margin-top: -264px;
+        /* margin-top: -264px; */
     }
 
     .custom-bg {
@@ -796,13 +796,10 @@
         padding: 0px 0px 0px 0px;
     }
 
-    .marginCarveSection {
-        background-image: none !important;
-    }
-
+   
     .carved-section {
         clip-path: polygon(0% 0%, 100% 0, 100% 100%, 0% 100%);
-        margin-top: -200px;
+        /* margin-top: -200px; */
     }
 
     .custom-bg {
@@ -815,8 +812,9 @@
     }
 
     .marginCarveSection {
-        margin-top: 200px;
+        margin-top: 60px;
         margin-bottom: 43px;
+        background-image: none !important;
     }
 
     .upodestaP {
@@ -953,7 +951,7 @@
     }
 
     .marginCarveSection {
-        margin-top: 179px;
+        margin-top: 20px;
         margin-bottom: 5px;
         padding: 30px 7px;
     }

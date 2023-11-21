@@ -285,18 +285,18 @@ ul {
 
 .carved-section {
     background-color: #f4fdff;
-    padding: 10px 0px 100px 0px;
+    padding: 1px 0px 100px 0px;
     clip-path: polygon(0% 10%, 100% 0, 100% 90%, 0% 100%);
-    margin-top: -200px;
+    /* margin-top: -200px; */
 }
 
 .marginCarveSection {
-    margin-top: 220px;
+    margin-top: 100px;
     margin-bottom: 20px;
     background-image: url("../images/carvebg.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    padding-top: 50px;
+    /* padding-top: 50px; */
 }
 
 .secondSectionHeaderOne {
@@ -353,6 +353,15 @@ ul {
 .montronanaySongbad {
     font-size: 25px;
     color: #004382;
+}
+
+.imergency-contact-img{
+    padding-top: 50px;
+    /* z-index: 99998; */
+    
+}
+.imergency-contact-img img{
+    width: 100%;
 }
 
 /* .fristSectionImage {
