@@ -650,6 +650,13 @@ ul {
     margin: 15px;
     border-radius: 10px;
 }
+.swiper {
+    overflow-x: hidden;
+}
+.emergencySwiper .swiper-pagination {
+    position: inherit;
+    margin-top: 35px;
+}
 
 .logo_section_text {
     justify-content: center;
