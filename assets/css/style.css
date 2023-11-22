@@ -647,7 +647,11 @@ ul {
 }
 
 .swiper-slide img {
-    /* margin: 15px; */
+    margin: 15px;
+    border-radius: 10px;
+}
+.swiper-slide .imergency-contact-img img {
+    margin: 0px;
     border-radius: 10px;
 }
 .swiper {
