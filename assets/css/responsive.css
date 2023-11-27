@@ -328,7 +328,7 @@
     }
 
     #carouselExampleControls .carousel-inner .carousel-item img {
-        height: 450px;
+        /* height: 450px; */
         object-fit: fill;
     }
 
@@ -559,7 +559,7 @@
     }
 
     #carouselExampleControls .carousel-inner .carousel-item img {
-        height: 300px;
+        /* height: 300px; */
         object-fit: fill;
     }
 
@@ -769,7 +769,7 @@
 
 @media (max-width: 640px) {
     #carouselExampleControls .carousel-inner .carousel-item img {
-        height: 300px;
+        /* height: 300px; */
         object-fit: fill;
     }
 
@@ -878,7 +878,7 @@
 
 @media (max-width: 576px) {
     #carouselExampleControls .carousel-inner .carousel-item img {
-        height: 300px;
+        /* height: 300px; */
         object-fit: fill;
     }
 
