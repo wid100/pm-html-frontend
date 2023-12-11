@@ -676,6 +676,11 @@ ul {
     position: inherit;
     margin-top: 35px;
 }
+.emergencySwiper .swiper-pagination .swiper-pagination-bullet{
+    width: 8px;
+    height: 8px;
+    color: rgb(0, 67, 130);
+}
 
 .logo_section_text {
     justify-content: center;

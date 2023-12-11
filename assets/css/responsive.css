@@ -1114,6 +1114,11 @@
         padding-top: 30px;
         width: 104% !important;
     }
+    /* swipper slider pagination */
+    .emergencySwiper .swiper-pagination .swiper-pagination-bullet{
+        width: 6px;
+        height: 6px;
+    }
 }
 
 @media (max-width: 475px) {
