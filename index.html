@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>বঙ্গবন্ধুর জন্মশতবার্ষিকী ও শতভাগ বিদ্যুতায়ন উপলক্ষে এর মোড়ক উন্মোচন</title>
+    <title>বিদ্যুৎ, জ্বালানি ও খনিজ সম্পদ মন্ত্রণালয় -গণপ্রজাতন্ত্রী বাংলাদেশ সরকার</title>
     <meta property="og:type" content="website">
 
     <meta property="og:url" content="https://mpemr.gov.bd/">
@@ -17,7 +17,7 @@
     <meta name="og:description" content="জাতির পিতা বঙ্গবন্ধুর জন্মশতবার্ষিকী ও শতভাগ বিদ্যুতায়ন উপলক্ষে 100 এর মোড়ক উন্মোচন করেন মাননীয় প্রধানমন্ত্রী শেখ হাসিনা">
     <meta property="og:type" content="article">
     
-    <meta property="og:title" content="বঙ্গবন্ধুর জন্মশতবার্ষিকী ও শতভাগ বিদ্যুতায়ন উপলক্ষে এর মোড়ক উন্মোচন">
+    <meta property="og:title" content="বিদ্যুৎ, জ্বালানি ও খনিজ সম্পদ মন্ত্রণালয় -গণপ্রজাতন্ত্রী বাংলাদেশ সরকার">
     
     <meta property="og:image" content="https://mpemr.gov.bd/assets/images/fb-thumbs/index.jpg">
     <meta property="image" content="https://mpemr.gov.bd/assets/images/fb-thumbs/index.jpg" />
@@ -383,6 +383,12 @@
                             <i class="fas fa-search  searchIcon" style="color: white;"></i>
                         </button>
                     </form>
+                    <div id="popup-container" class="popup-container">
+                        <button class="close-button" onclick="closePopup()">✕</button>
+                        <div class="popup-content">
+                            <img src="assets/images/news-head/14-december-popup.jpg" alt="">
+                        </div>
+                    </div>
                     <div class="d-flex d-lg-none justify-content-left justify-content-md-start pt-2">
                         <!-- Center the icons for small screens, start alignment for medium and large screens -->
                         <a href="https://www.facebook.com/MPEMR" class="me-2 socialMediaIconNav"
@@ -450,6 +456,7 @@
     });
 </script>
         <main class="sectionOverflow">
+           
         
         <div id="carouselExampleControls" class=" slide sliderMargin" data-bs-ride="">
             <div class="carousel-inner">
@@ -485,8 +492,7 @@
             </div>
             
         </div>
-
-        
+       
         <section>
             <div class="row ">
                 <div class="col-sm-1 col-md-1 col-lg-2"></div>
@@ -2034,6 +2040,36 @@
             $("html").toggleClass("csstransforms");
         });
     </script>
+    <script>
+          document.addEventListener("DOMContentLoaded", function() {
+        // Show the popup after the page has loaded
+        showPopup();
+    });
+    
+    function showPopup() {
+        var popup = document.getElementById("popup-container");
+        popup.style.display = "block";
+    }
+    
+    function closePopup() {
+        var popup = document.getElementById("popup-container");
+        popup.style.display = "none";
+    }
+    </script>
+
+  
+    <!-- <script>
+        const popup = document.querySelector('.popup');
+        const x = document.querySelector('.popup-content .close-cross');
+        window.addEventListener('load', () => {
+            popup.classList.add('showPopup');
+            popup.childNodes[1].classList.add('showPopup');
+        })
+        x.addEventListener('click', () => {
+            popup.classList.remove('showPopup');
+            popup.childNodes[1].classList.remove('showPopup');
+        })
+    </script> -->
 
 <script>
     var swiperEmergency = new Swiper(".emergencySwiper", {
