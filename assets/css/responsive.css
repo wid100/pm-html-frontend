@@ -121,22 +121,12 @@
         overflow: hidden;
     }
 
-    /*
-    .fristSectionImageHw {
-        width: 103%;
-        height: 55%;
-        object-fit: fill;
-    } */
-
-    /* .hasina-img {
-        width: 100%;
-        height: 94% !important;
-    } */
-
-    /* .social-page {
-        padding-left: 36px !important;
-        padding-right: 16px !important;
-    } */
+}
+@media only screen and (max-width: 1400px){
+    .popup-container {
+        width: 70%;
+        max-width: 520px;
+    }
 }
 
 @media (max-width: 1280px) {
@@ -501,6 +491,10 @@
 @media (max-width: 1040px) and (min-width: 992px) {
     .menu {
         font-size: 10px !important;
+    }
+    .popup-container {
+        width: 90%;
+        max-width: none; 
     }
    
 }

@@ -877,8 +877,8 @@ ul {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     z-index: 999;
-    width: 80%; /* Set a percentage or a fixed width for the popup */
-    max-width: 600px; /* Set a maximum width if needed */
+    width: 80%;
+    max-width: 600px;
 }
 
 .popup-content {
@@ -886,10 +886,10 @@ ul {
 }
 
 .popup-content img {
-    max-width: 100%; /* Ensure the image does not exceed the width of its container */
+    max-width: 100%; 
     height: auto;
     display: block;
-    margin: 0 auto; /* Center the image horizontally */
+    margin: 0 auto; 
 }
 
 .close-button {
@@ -906,25 +906,4 @@ ul {
 
 .close-button:hover {
     background-color: #d32f2f;
-}
-
-
-@media only screen and (max-width: 1400px){
-    .popup-container {
-        width: 70%;
-        max-width: 520px;
-    }
-}
-/* Media Query for smaller devices */
-@media only screen and (max-width: 992px) {
-    .popup-container {
-        width: 90%;
-        max-width: none; 
-    }
-}
-@media only screen and (max-width: 600px) {
-    .popup-container {
-        width: 90%;
-        max-width: none; /* Remove the maximum width for smaller screens */
-    }
 }

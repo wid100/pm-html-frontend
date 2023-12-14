@@ -383,12 +383,19 @@
                             <i class="fas fa-search  searchIcon" style="color: white;"></i>
                         </button>
                     </form>
+
+                    <!-- Popup for Special Holiday banner -->
+
                     <div id="popup-container" class="popup-container">
                         <button class="close-button" onclick="closePopup()">✕</button>
                         <div class="popup-content">
                             <img src="assets/images/news-head/14-december-popup.jpg" alt="">
                         </div>
                     </div>
+
+                     <!-- End Popup for Special Holiday banner -->
+
+                     
                     <div class="d-flex d-lg-none justify-content-left justify-content-md-start pt-2">
                         <!-- Center the icons for small screens, start alignment for medium and large screens -->
                         <a href="https://www.facebook.com/MPEMR" class="me-2 socialMediaIconNav"
@@ -2040,37 +2047,22 @@
             $("html").toggleClass("csstransforms");
         });
     </script>
-    <script>
-          document.addEventListener("DOMContentLoaded", function() {
-        // Show the popup after the page has loaded
+   <script defer>
+    document.addEventListener("DOMContentLoaded", function() {
         showPopup();
     });
-    
+
     function showPopup() {
         var popup = document.getElementById("popup-container");
         popup.style.display = "block";
     }
-    
+
     function closePopup() {
         var popup = document.getElementById("popup-container");
         popup.style.display = "none";
     }
-    </script>
-
+</script>
   
-    <!-- <script>
-        const popup = document.querySelector('.popup');
-        const x = document.querySelector('.popup-content .close-cross');
-        window.addEventListener('load', () => {
-            popup.classList.add('showPopup');
-            popup.childNodes[1].classList.add('showPopup');
-        })
-        x.addEventListener('click', () => {
-            popup.classList.remove('showPopup');
-            popup.childNodes[1].classList.remove('showPopup');
-        })
-    </script> -->
-
 <script>
     var swiperEmergency = new Swiper(".emergencySwiper", {
       slidesPerView: 4,
