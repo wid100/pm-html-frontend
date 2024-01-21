@@ -403,6 +403,9 @@ ul {
 .flexCardImg {
     margin: 0px 0px 40px 18px;
 }
+.flexCardImgMinister {
+    margin: 0px 0px 40px 0px;
+}
 
 .img-fluidss{
     width: 87%;
