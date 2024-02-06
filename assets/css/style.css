@@ -871,8 +871,18 @@ ul {
 }
 
 /*new feature popup special event css*/
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black overlay */
+    z-index: 998; /* lower z-index than popup */
+    display: none; /* initially hidden */
+}
 .popup-container {
-    display: none;
+    /* display: none; */
     position: fixed;
     top: 55%;
     left: 50%;
